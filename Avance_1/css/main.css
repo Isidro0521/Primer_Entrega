@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html, body{
+	height: 100%;
+}
+body {
+	padding-top: 50px;
+}
+.carousel{
+	height: 50%;
+}
+.item, .active, .carousel-inner{
+	height: 100%;
+}
+.fill{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+section, .section-colored{
+	padding: 50px 0;
+}
+.section-colored{
+	background-color: #CFD8DC;
+}
+.img-responsive{
+	padding-bottom: 25px;
+}
+.img-home-portfolio{
+	padding-bottom: 30px;
+}
+.img-modal{
+	cursor: pointer;
+}
+.tooltip-social a{
+	text-decoration: none;
+	color: inherit;
+}
+.facebook-link a:hover{
+	color: #3b5998;
+}
+.twitter-link a:hover{
+	color: #39a9e0;
+}
+.google-plus-link a:hover{
+	color: #d14836;
+}
+
+footer{
+	margin: 50px 0;
+}
